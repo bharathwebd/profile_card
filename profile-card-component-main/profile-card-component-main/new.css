@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color:hsl(185, 75%, 39%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.top{
+    position: fixed;
+    top: -200px; 
+    left: 10px;
+    z-index: -1; 
+    width: 700px; 
+    height: 800px; 
+    background-image: url("images/bg-pattern-top.svg");
+    background-size: contain; 
+    background-repeat: no-repeat;     
+
+}
+.bottom{
+    position: fixed; 
+    right: -10px; 
+    z-index: -1; 
+    width: 700px; 
+    height: 800px; 
+    background-image: url("images/bg-pattern-bottom.svg");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    top: 200px;
+}
+  
+  .main {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    width: 320px;
+  }
+  
+  .header {   
+    padding: 30px;
+    position: relative;
+    background-image: url("images/bg-pattern-card.svg" );
+    height: 50px;   
+  }
+
+  .info {
+    margin-top: 50px;
+    color: rgb(45, 50, 72);
+  }
+  .info span{
+    font-weight: 400;
+  }
+  .info h2 {
+    margin: 0;
+  }
+  
+  .info h2 span {
+    color: rgb(88, 98, 141);
+  }
+  
+  .info p {
+    margin: 0.5;
+    font-size: 0.5;
+    color: rgb(88, 98, 141);
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+    background: white;
+  }
+  
+  .stats div {
+    text-align: center;
+  }
+  
+  .stats h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: rgb(45, 50, 72);
+  }
+  
+  .stats p {
+    margin: 0.2rem 0;
+    font-size: 0.8rem;
+    color: rgb(89, 99, 140);
+  }
+  img{
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-right: 0px;
+    left: 110px;
+    top: 50px;
+
+  }
